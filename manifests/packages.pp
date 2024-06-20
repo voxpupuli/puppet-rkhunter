@@ -7,12 +7,14 @@
 #
 class rkhunter::packages (
   $package_name = $rkhunter::package_name,
+  $install_options = $rkhunter::package_install_options,
 ) {
   assert_private()
 
   package { 'rkhunter':
-    ensure => installed,
-    name   => $package_name,
+    ensure          => installed,
+    name            => $package_name,
+    install_options => $install_options,
   }
 
   file { '/usr/local/bin/rktask':
