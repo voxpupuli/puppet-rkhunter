@@ -4,9 +4,6 @@ describe 'rkhunter class' do
   context 'default parameters' do
     # Using puppet_apply as a helper
     it 'works idempotently with no errors' do
-      # install epel dependency
-      apply_manifest('package{"epel-release": ensure => "installed"}')
-
       pp = <<-EOS
       include rkhunter
       include rkhunter::cron
