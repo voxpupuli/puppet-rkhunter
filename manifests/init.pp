@@ -93,7 +93,7 @@ class rkhunter (
 
   $mirrors_file = '/var/lib/rkhunter/db/mirrors.dat'
 
-  # Make sure mimimal mirrors.dat exists for file_line to function
+  # Make sure minimal mirrors.dat exists for file_line to function
   file { $mirrors_file:
     owner   => 'root',
     group   => 'root',
