@@ -1,3 +1,7 @@
+# @summary Manage rkhunter database update cron job
+# @param hour
+# @param weekday
+# @param email
 class rkhunter::cron_updatedb (
   $hour           = '2',
   $weekday        = '1',

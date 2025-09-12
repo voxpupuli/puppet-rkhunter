@@ -9,14 +9,14 @@
 #### Public Classes
 
 * [`rkhunter`](#rkhunter)
-* [`rkhunter::cron`](#rkhunter--cron)
-* [`rkhunter::cron_updatedb`](#rkhunter--cron_updatedb)
+* [`rkhunter::cron`](#rkhunter--cron): Manage rkhunter cron job
+* [`rkhunter::cron_updatedb`](#rkhunter--cron_updatedb): Manage rkhunter database update cron job
 * [`rkhunter::mcollective_plugin`](#rkhunter--mcollective_plugin)
-* [`rkhunter::params`](#rkhunter--params)
 
 #### Private Classes
 
 * `rkhunter::packages`: install the rkhunter package and initialize it
+* `rkhunter::params`: Parameters
 
 ### Data types
 
@@ -836,7 +836,7 @@ Default value: `[]`
 
 ### <a name="rkhunter--cron"></a>`rkhunter::cron`
 
-The rkhunter::cron class.
+Manage rkhunter cron job
 
 #### Parameters
 
@@ -881,7 +881,7 @@ Default value: `'> /var/log/rkhunter_warnings.log'`
 
 ### <a name="rkhunter--cron_updatedb"></a>`rkhunter::cron_updatedb`
 
-The rkhunter::cron_updatedb class.
+Manage rkhunter database update cron job
 
 #### Parameters
 
@@ -918,10 +918,6 @@ Default value: `'root@localhost'`
 ### <a name="rkhunter--mcollective_plugin"></a>`rkhunter::mcollective_plugin`
 
 The rkhunter::mcollective_plugin class.
-
-### <a name="rkhunter--params"></a>`rkhunter::params`
-
-The rkhunter::params class.
 
 ## Data types
 

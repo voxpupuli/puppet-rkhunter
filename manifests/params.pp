@@ -1,3 +1,5 @@
+# @summary Parameters
+# @api private
 class rkhunter::params {
   $tmpdir              = $facts['os']['family'] ? {
     'RedHat' => '/var/lib/rkhunter',
