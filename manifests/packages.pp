@@ -11,6 +11,10 @@ class rkhunter::packages (
 ) {
   assert_private()
 
+  if $facts['os']['family'] == 'RedHat' {
+    require epel
+  }
+
   package { 'rkhunter':
     ensure          => installed,
     name            => $package_name,
