@@ -57,7 +57,7 @@ class { 'rkhunter':
 include rkhunter::cron
 ```
 
-### List of optional configuration paramaeters
+### List of optional configuration parameters
 
 NOTE: there may be more. I do not update this list every time. Have a look into params.pp
 
