@@ -50,23 +50,12 @@ class rkhunter::params {
 
   case $facts['os']['family'] {
     'RedHat': {
-      if Integer($facts['os']['release']['major']) < 8 {
-        $scriptwhitelist = [
-          '/usr/bin/whatis',
-          '/usr/bin/ldd',
-          '/usr/bin/groups',
-          '/usr/bin/GET',
-          '/sbin/ifup',
-          '/sbin/ifdown',
-        ]
-      } else {
-        $scriptwhitelist = [
-          '/usr/bin/whatis',
-          '/usr/bin/ldd',
-          '/usr/bin/groups',
-          '/usr/bin/GET',
-        ]
-      }
+      $scriptwhitelist = [
+        '/usr/bin/whatis',
+        '/usr/bin/ldd',
+        '/usr/bin/groups',
+        '/usr/bin/GET',
+      ]
     }
     default: {
       $scriptwhitelist = [
