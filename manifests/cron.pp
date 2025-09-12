@@ -1,3 +1,8 @@
+# @summary Manage rkhunter cron job
+# @param hour
+# @param weekday
+# @param email
+# @param log_output
 class rkhunter::cron (
   $hour           = '4',
   $weekday        = '*',
