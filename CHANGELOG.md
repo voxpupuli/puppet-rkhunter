@@ -4,6 +4,29 @@ All notable changes to this project will be documented in this file.
 Each new release typically also includes the latest modulesync defaults.
 These should not affect the functionality of the module.
 
+## [v4.0.0](https://github.com/voxpupuli/puppet-rkhunter/tree/v4.0.0) (2025-09-13)
+
+[Full Changelog](https://github.com/voxpupuli/puppet-rkhunter/compare/v3.0.0...v4.0.0)
+
+**Breaking changes:**
+
+- Drop support for EOL Debian 10 [\#48](https://github.com/voxpupuli/puppet-rkhunter/pull/48) ([kenyon](https://github.com/kenyon))
+- Drop puppet, update openvox minimum version to 8.19 [\#43](https://github.com/voxpupuli/puppet-rkhunter/pull/43) ([TheMeier](https://github.com/TheMeier))
+
+**Implemented enhancements:**
+
+- Add support for Debian 13 [\#51](https://github.com/voxpupuli/puppet-rkhunter/pull/51) ([kenyon](https://github.com/kenyon))
+- Add support for Enterprise Linuxes \(CentOS 9, Alma 8-9, Rocky 8-9, Oracle 8-9\) [\#50](https://github.com/voxpupuli/puppet-rkhunter/pull/50) ([kenyon](https://github.com/kenyon))
+- Add Debian 12 support [\#39](https://github.com/voxpupuli/puppet-rkhunter/pull/39) ([bastelfreak](https://github.com/bastelfreak))
+- metadata.json: Add OpenVox [\#36](https://github.com/voxpupuli/puppet-rkhunter/pull/36) ([jstraw](https://github.com/jstraw))
+- Add support for package `install_options` [\#29](https://github.com/voxpupuli/puppet-rkhunter/pull/29) ([yorickps](https://github.com/yorickps))
+
+**Merged pull requests:**
+
+- Add some minimal reference doc strings [\#52](https://github.com/voxpupuli/puppet-rkhunter/pull/52) ([kenyon](https://github.com/kenyon))
+- README: replace section on supported operating systems with a link to `metadata.json` [\#49](https://github.com/voxpupuli/puppet-rkhunter/pull/49) ([kenyon](https://github.com/kenyon))
+- Generate REFERENCE.md [\#45](https://github.com/voxpupuli/puppet-rkhunter/pull/45) ([kenyon](https://github.com/kenyon))
+
 ## [v3.0.0](https://github.com/voxpupuli/puppet-rkhunter/tree/v3.0.0) (2024-02-03)
 
 [Full Changelog](https://github.com/voxpupuli/puppet-rkhunter/compare/v2.2.0...v3.0.0)

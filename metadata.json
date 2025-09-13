@@ -1,6 +1,6 @@
 {
   "name": "puppet-rkhunter",
-  "version": "3.0.1-rc0",
+  "version": "4.0.0",
   "author": "Vox Pupuli, Gianni Carafa (SRF), Philipp Gassmann & Andreas Zuber (Puzzle)",
   "license": "Apache-2.0",
   "summary": "Manage rkHunter installation and configuration",
