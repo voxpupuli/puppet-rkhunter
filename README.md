@@ -1,6 +1,6 @@
 # puppet-rkhunter
 
-[![Build Status](https://travis-ci.org/voxpupuli/puppet-rkhunter.png?branch=master)](https://travis-ci.org/voxpupuli/puppet-rkhunter)
+![Build Status](https://github.com/voxpupuli/puppet-rkhunter/actions/workflows/ci.yml/badge.svg?branch=master)
 [![Puppet Forge](https://img.shields.io/puppetforge/v/puppet/rkhunter.svg)](https://forge.puppetlabs.com/puppet/rkhunter)
 [![Puppet Forge - downloads](https://img.shields.io/puppetforge/dt/puppet/rkhunter.svg)](https://forge.puppetlabs.com/puppet/rkhunter)
 [![Puppet Forge - endorsement](https://img.shields.io/puppetforge/e/puppet/rkhunter.svg)](https://forge.puppetlabs.com/puppet/rkhunter)
