@@ -7,7 +7,7 @@ describe 'rkhunter::cron', type: :class do
 
       it do
         is_expected.to contain_cron('rkhunter-cron').with(
-          'user' => 'root'
+          'user' => 'root',
         )
       end
     end
