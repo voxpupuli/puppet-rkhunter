@@ -11,7 +11,6 @@
 * [`rkhunter`](#rkhunter)
 * [`rkhunter::cron`](#rkhunter--cron): Manage rkhunter cron job
 * [`rkhunter::cron_updatedb`](#rkhunter--cron_updatedb): Manage rkhunter database update cron job
-* [`rkhunter::mcollective_plugin`](#rkhunter--mcollective_plugin)
 
 #### Private Classes
 
@@ -914,10 +913,6 @@ Data type: `Any`
 
 
 Default value: `'root@localhost'`
-
-### <a name="rkhunter--mcollective_plugin"></a>`rkhunter::mcollective_plugin`
-
-The rkhunter::mcollective_plugin class.
 
 ## Data types
 
