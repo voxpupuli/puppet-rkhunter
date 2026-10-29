@@ -926,4 +926,3 @@ The rkhunter::mcollective_plugin class.
 A type for the supported rkhunter languages
 
 Alias of `Enum['cn', 'de', 'en', 'ja', 'tr', 'tr.utf8', 'zh', 'zh.utf8']`
-
