@@ -21,12 +21,6 @@ class rkhunter::packages (
     install_options => $install_options,
   }
 
-  file { '/usr/local/bin/rktask':
-    ensure => file,
-    mode   => '0755',
-    source => 'puppet:///modules/rkhunter/rktask',
-  }
-
   # Run rkhunter --propupd after installation of package
   exec { '/usr/bin/rkhunter --propupd':
     path    => ['/usr/local/sbin/', '/usr/local/bin/', '/usr/sbin', '/usr/bin', '/bin', '/sbin'],

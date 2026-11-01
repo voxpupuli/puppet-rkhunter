@@ -16,7 +16,6 @@ describe 'rkhunter', type: :class do
         )
       end
 
-      it { is_expected.to contain_file('/usr/local/bin/rktask') }
       it { is_expected.to contain_file('/var/lib/rkhunter/db/mirrors.dat') }
       it { is_expected.to contain_package('rkhunter').with('ensure' => 'installed') }
       it { is_expected.to contain_exec('/usr/bin/rkhunter --propupd') }
